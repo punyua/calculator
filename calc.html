@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calc.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div id="display">
+            <input type="text" id="display1" placeholder="0" autocomplete="off">
+        </div>
+        <div class="buttons">
+            <button id="btn" class="oper" onclick="c()">C</button>
+            <button id="btn" class="oper" onclick="calculate('/')">/</button>
+            <button id="btn" class="oper" onclick="calculate('*')">*</button>
+            <button id="btn" class="oper" onclick="del()">Del</button>
+            <button id="btn" onclick="calculate(7)">7</button>
+            <button id="btn" onclick="calculate(8)">8</button>
+            <button id="btn" onclick="calculate(9)">9</button>
+            <button id="btn" class="oper" onclick="calculate('-')">-</button>
+            <button id="btn" onclick="calculate(4)">4</button>
+            <button id="btn" onclick="calculate(5)">5</button>
+            <button id="btn" onclick="calculate(6)">6</button>
+            <button id="btn" class="oper"onclick="calculate('+')">+</button>
+            <button id="btn" onclick="calculate(1)">1</button>
+            <button id="btn" onclick="calculate(2)">2</button>
+            <button id="btn" onclick="calculate(3)">3</button>
+            <button id="btn" onclick="calculate(0)">0</button>
+            <button id="btn" class="oper" onclick="calculate('%')">%</button>
+            <button id="btn" class="oper" onclick="calculate('.')">.</button>
+            <button id="btn" class="equal" onclick="result()">=</button>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
